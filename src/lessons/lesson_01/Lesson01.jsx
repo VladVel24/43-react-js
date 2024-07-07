@@ -6,7 +6,7 @@ export default function Lesson01() {
     //console.dir(document); 
 
     const heading = "Урок 01"
-    const classContainer = 'lesson1-container'
+    const classContainer = 'lesson-container'
 
 //==============================================================
     function formatName(user) {
