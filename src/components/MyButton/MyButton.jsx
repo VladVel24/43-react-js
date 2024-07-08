@@ -1,9 +1,11 @@
 
 import './myButton.css'
 
-export default function MyButton(props) {
+export default function MyButton({type, onClick, name}) {
     //console.log(props);
     return (
-        <button onClick = {props.onClick} className="myButton">{props.name}</button>
-    )
+     <button type = {type} onClick = {onClick} 
+     className='myButton'>{name}</button> 
+
+    );  
 }

@@ -12,7 +12,7 @@ export default function Lesson02() {
     const handleSubmit = () => {
         console.log('submit');
     }
-    const handleKemel = () => {
+    const handleKamel = () => {
         console.log('🐪');
     }
 
@@ -24,9 +24,10 @@ return (
             <h5>Мы хотим использовать наш компонент кнопку с разными данными</h5>
 
         <div>
-            <MyButton onClick = {handleClick} name = {'click'}/>
-            <MyButton onClick = {handleSubmit} name = {'submit'}/>
-            <MyButton onClick = {handleKemel} name = {'🗿'}/>
+            <MyButton type = {'button'} onClick = {handleClick} name = {'click'} />
+            <MyButton type = {'submit'} onClick = {handleSubmit} name = {'submit'} />
+            <MyButton type = {'reset'} onClick = {handleKamel} name = {'🗿'} />
+            
         </div>
 
      </div>
